@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 2px; 
+    height: 97%;
+}
+.main_div{
+    width: 98%; 
+    background-image: url(https://pngicon.ru/file/uploads/1_1735.png); 
+    background-size: 60px; 
+    background-repeat: repeat-y; 
+    background-position: right;
+}
+.back{
+    background-color: rgba(255, 255, 255, 0.5); 
+    height: 100%;
+}
+.header{
+    width: 98%;  
+    background-color: rgb(142, 196, 241);  
+    height: 8%;
+    text-transform: uppercase; 
+    font-size: 25px; 
+    padding: 1%; 
+    font-weight: normal; 
+    color: rgb(3, 3, 95); 
+    text-align: center;
+}
+.yellow{
+    width: 150px; 
+    height: 79%; 
+    background-color: rgb(230, 215, 19); 
+    padding: 10px; 
+    float: left;
+}
+.footbal{
+    margin-left: 170px; 
+    padding: 20px;
+}
+h3{
+    text-align: center; 
+    text-transform: uppercase;
+}
+.image{
+    float: left; 
+    width: 50vw; 
+    height:25vh;
+}
+@media screen and (max-width: 480px){
+    p{
+        font-size: 15px;
+    }
+    .image{
+    width: 210px; 
+    height: 100px;
+    }
+    .yellow{
+        margin-right: 5px;
+        float: none;
+        width: 95%;
+        font-size: 20px;
+        text-align: center;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .footbal{
+        margin-left: 1px; 
+        padding: 20px;
+    }
+    }
+p{
+    text-align: left; 
+    font-size: 25px;
+}
+.anchor{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer{
+    clear: both; 
+    background-color: rgb(142, 196, 241);
+    text-align: center;  
+    padding: 20px; 
+    text-transform: uppercase; 
+    font-size: 25px; 
+    font-weight: normal; 
+    color: rgb(3, 3, 95);
+}
