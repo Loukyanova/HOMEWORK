@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <p> Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <label for="id" class="name_st">Название статьи:</label>
+        <input type="text" name="name" id="name">
+        <label for="id" class="rub">Рубрика:
+            <select type="text" name="select" id="select">
+                <option value="prog">программирование</option>
+                <option value="test">тестирование</option>
+                <option value="model">моделирование</option>
+                <option value="analit">аналитика</option>
+            </select>
+        </label>
+        <label for="id" class="label_radio"> Публикация:</label>
+        <input type="radio" name="radio" value="site" class="radio_1">на сайте <span class="clear"></span>
+        <input type="radio" name="radio" value="magazin" class="radio_2">в журнале<span class="clear"></span>
+        <input type="radio" name="radio" value="site_magaz" class="radio_3">на сайте и в журнале<span
+            class="clear_1"></span> <br>
+        <label for="id" class="comment"> Разрешить комментарии: </label>
+        <input type="checkbox" checked id="checkbox">
+        <label for="id" class="text_1">Текст статьи:</label>
+        <textarea name="text" id="text"></textarea>
+        <button name="send" value="send">Опубликовать</button>
+    </form>
+</body>
+
+</html>
